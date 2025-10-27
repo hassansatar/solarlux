@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Solarlux</title>
+    <style>
+
+        .headcotainer {
+            width: 100vw;
+            height: 50px;
+            background-color: orangered;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .head1 {
+            width: 800px;
+            height: 60px;
+            color: white;
+            text-align: center;
+            justify-content: space-between;
+            display: flex;
+        }
+
+                /* Footer Styles */
+        .footer {
+        background-color: #0d1a2b;  /* dark navy */
+        color: #fff;
+        padding: 40px 20px;
+        font-family: Arial, sans-serif;
+        }
+
+        .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        }
+
+        /* Column */
+        .footer-col {
+        flex: 1 1 220px;
+        }
+
+        .footer-col h4 {
+        margin-bottom: 10px;
+        font-size: 18px;
+        }
+
+        .footer-col ul {
+        list-style: none;
+        padding: 0;
+        }
+
+        .footer-col ul li {
+        margin-bottom: 6px;
+        font-size: 14px;
+        }
+
+                /* Make orange dots for list items */
+        .orange-dots {
+        list-style: none;         /* remove default bullets */
+        padding: 0;
+        margin: 0;
+        }
+
+        .orange-dots li {
+        position: relative;
+        padding-left: 18px;       /* space for the dot */
+        margin-bottom: 6px;
+        }
+
+        .orange-dots li::before {
+        content: "•";             /* bullet character */
+        color: orange;            /* orange dot color */
+        position: absolute;
+        left: 0;                  /* position to the left */
+        font-size: 18px;          /* size of the dot */
+        line-height: 1;
+        }
+
+        /* Badges */
+        .badges {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        }
+        .badge {
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 12px;
+        display: inline-block;
+        }
+        .badge.green { background: #28a745; }
+        .badge.blue { background: #007bff; }
+        .badge.purple { background: #9b59b6; }
+
+        /* Social icons */
+        .social-icons {
+        margin-top: 10px;
+        display: flex;
+        gap: 8px;
+        }
+        .social-icons img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        }
+
+        /* Emergency box */
+        .emergency {
+        background: #ff6600;
+        padding: 8px;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-weight: bold;
+        text-align: center;
+        }
+
+        /* Bottom bar */
+        .footer-bottom {
+        border-top: 1px solid rgba(255,255,255,0.2);
+        margin-top: 20px;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 12px;
+        color: #bbb;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="headcotainer">
+        <div class="head1">
+            <h5>💡 2024 Solar Installer of the Year</h5>
+            <h5>🛡 NABCEP Master Certified</h5>
+            <h5>⭐ 4.9/5 Rating [2.847 Reviews]</h5>
+            <h5>🏆 BBB A+ Accredited</h5>
+        </div>
+    </div>
+
+        <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Column 1 -->
+            <div class="footer-col">
+            <img src="image\solarlux.jpg" alt="SolarLux Logo" class="logo">
+            <p>
+                America's premier solar installation company, serving luxury homeowners
+                nationwide with unparalleled craftsmanship and white-glove service since 2009.
+            </p>
+            <div class="badges">
+                <span class="badge green">NABCEP Certified</span>
+                <span class="badge blue">Licensed & Insured</span>
+                <span class="badge purple">Tesla Certified</span>
+            </div>
+            <div class="social-icons">
+                <img src="image\facebookicon.jpg" alt="Facebook">
+                <img src="image\twittericon.jpg" alt="Twitter">
+                <img src="image\instaicob.jpg" alt="Instagram">
+                <img src="image\linkdinicon.jpg" alt="LinkedIn">
+                <img src="image\youtubeicon.jpg" alt="YouTube">
+            </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="footer-col">
+                <h4>Premium Services</h4>
+                <ul class="orange-dots">
+                    <li>Platinum Solar Installation</li>
+                    <li>Energy Independence Package</li>
+                    <li>Commercial Solar Solutions</li>
+                    <li>Tesla Powerwall Integration</li>
+                    <li>VIP Maintenance Service</li>
+                    <li>Lifetime Protection Plan</li>
+                </ul>
+            </div>
+            
+
+            <!-- Column 3 -->
+            <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+                <li>About SolarLux</li>
+                <li>Leadership Team</li>
+                <li>Careers & Jobs</li>
+                <li>Press & Media</li>
+                <li>Success Stories</li>
+                <li>Awards & Recognition</li>
+            </ul>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="footer-col">
+            <h4>Contact Info</h4>
+            <p>📞 (888) LUX-SOLAR<br>24/7 Emergency Support</p>
+            <p>✉ vip@solarlux.com<br>Premium client support</p>
+            <p>📍 1247 Solar Drive<br>Austin, TX 78010</p>
+            <div class="emergency">Emergency Support: (888) 911-SOLAR</div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2024 SolarLux Premium Solar Solutions. All rights reserved.</p>
+            <p>Privacy Policy | Terms of Service | Cookie Policy | Accessibility</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
